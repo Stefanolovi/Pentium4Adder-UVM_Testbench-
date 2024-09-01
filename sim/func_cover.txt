@@ -1,0 +1,27 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /P4_pkg/P4_cov/P4_cg                            100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint a_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin corner[0]                                       9          1          -    Covered              
+        bin corner[32767]                                  16          1          -    Covered              
+        bin corner[65535]                                  11          1          -    Covered              
+        default bin others                                963                     -    Occurred             
+    Coverpoint b_cp                                   100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin corner[0]                                      14          1          -    Covered              
+        bin corner[32767]                                  13          1          -    Covered              
+        bin corner[65535]                                   8          1          -    Covered              
+        default bin others                                964                     -    Occurred             
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
